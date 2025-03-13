@@ -55,6 +55,4 @@ Users can interact with the chatbot to ask follow-up questions based on the anal
 
 **Contributors**
 
-Bala Manish Reddy
-Siddhant Madan
-Vineet Patnaik
+Bala Manish Reddy, Siddhant Madan and Vineet Patnaik
