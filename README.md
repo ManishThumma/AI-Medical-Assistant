@@ -16,7 +16,11 @@ Chat History: Maintains conversation history to enable follow-up queries related
 
 Multiple File Uploads: Supports multiple audio files for batch processing.
 
-Technologies Used
+
+
+*Technologies Used*
+
+
 
 Streamlit: For building the user interface
 
@@ -31,14 +35,9 @@ Python: Core programming language
 *Installation & Setup*
 
 
-
 Prerequisites
 
-Python 3.8+
-Pip
-Streamlit
-Whisper
-Groq API key
+Python 3.8+, Pip, Streamlit, Whisper, Groq API key
 
 
 *Usage*
@@ -51,6 +50,8 @@ Groq’s AI model will analyze the conversation and provide:
 A possible prognosis, A diagnosis, Treatment or medication recommendations. 
 
 Users can interact with the chatbot to ask follow-up questions based on the analysis.
+
+
 
 **Contributors**
 
