@@ -26,67 +26,34 @@ Groq API (LLaMA 3): For AI-driven medical analysis
 
 Python: Core programming language
 
+
+
 *Installation & Setup*
+
+
 
 Prerequisites
 
 Python 3.8+
-
 Pip
-
 Streamlit
-
 Whisper
-
 Groq API key
-
-
-*Steps*
-
-
-Clone this repository:
-
-git clone https://github.com/yourusername/medical-assistant-ai.git
-cd medical-assistant-ai
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Add your Groq API Key to Streamlit Secrets:
-
-mkdir -p ~/.streamlit
-echo "[secrets]" > ~/.streamlit/secrets.toml
-echo "GROQ_API_KEY='your_api_key_here'" >> ~/.streamlit/secrets.toml
-
-Run the Streamlit application:
-
-streamlit run app.py
 
 
 *Usage*
 
 
 Upload an audio file containing a doctor-patient conversation.
-
 The system will transcribe the audio into text using Whisper.
 
 Groq’s AI model will analyze the conversation and provide:
-
-A possible prognosis
-
-A diagnosis
-
-Treatment or medication recommendations
+A possible prognosis, A diagnosis, Treatment or medication recommendations. 
 
 Users can interact with the chatbot to ask follow-up questions based on the analysis.
-
-
 
 **Contributors**
 
 Bala Manish Reddy
-
 Siddhant Madan
-
 Vineet Patnaik
